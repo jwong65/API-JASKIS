@@ -111,6 +111,8 @@
 
 // db.jaskis.deleteOne({name:"Lokinkajou"})
 
-// 3. Delete all bounties sent by Songbird
+// // 3. Delete all bounties sent by Songbird
+// db.jaskis.deleteMany({client:"Songbird"})
 
-// 4. Update all captured statuses to true
+// // 4. Update all captured statuses to true
+// db.jaskis.updateMany({},{$set:{captured:true}})
