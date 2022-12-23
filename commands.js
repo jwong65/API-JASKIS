@@ -96,6 +96,8 @@
 
 // 3. Query for all bounties, but exclude the client attribute from being shown
 
+//db.jaskis.find({},{client:0})
+
 // 4. Query for a Groundhog in the Woodlands
 
 // Update and Delete
